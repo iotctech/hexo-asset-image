@@ -57,7 +57,7 @@ hexo.extend.filter.register('after_post_render', function(data){
 
             //$(this).attr('src', config.root + link + src);
             //console.info&&console.info("update link as:-->"+config.root + link + src);
-            $(this).attr('src', link + src);
+            $(this).attr('src', src);
             console.info&&console.info("update link as:-->"+link + src);
           }
         }else{
